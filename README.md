@@ -1,36 +1,104 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍔 HungerHub
 
-## Getting Started
+A modern food delivery web application built using Next.js, offering a fast and intuitive user experience to browse food items, explore categories, and place orders seamlessly.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+👉 https://hungerhub-psi.vercel.app
+
+---
+
+## ✨ Features
+
+* 🔍 Search food and restaurants
+* 🍕 Category-based browsing (Pizza, Burgers, Sushi, etc.)
+* 🛒 Add to cart functionality
+* 🔐 User authentication (Login / Signup pages)
+* 📱 Responsive design (mobile + desktop)
+* ⚡ Fast performance with Next.js
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js, React
+* **Styling:** Tailwind CSS
+* **Language:** JavaScript / TypeScript
+
+---
+
+## 📂 Project Structure
+
+```
+app/
+ ├── cart/
+ ├── login/
+ ├── signup/
+ ├── category/
+ ├── order-confirmation/
+components/
+ ├── Navbar.tsx
+ ├── FoodCard.tsx
+ ├── Footer.tsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Satish1212u/hungerhub.git
+```
+
+Navigate to project folder:
+
+```bash
+cd hungerhub
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open in browser:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📌 Future Improvements
 
-To learn more about Next.js, take a look at the following resources:
+* 💳 Payment integration
+* 📍 Location-based restaurant suggestions
+* ⭐ Reviews & ratings system
+* 🔔 Real-time order tracking
+* 🗄️ Backend integration (Firebase / Node.js)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👨‍💻 Author
 
-## Deploy on Vercel
+**Satish Gupta**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* 💼 Web Developer
+* 🌐 Passionate about building real-world applications
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
