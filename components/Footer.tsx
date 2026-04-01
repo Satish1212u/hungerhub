@@ -51,11 +51,11 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-gray-600">
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-primary shrink-0 mt-0.5" />
-                <span>123 Food Street, Culinary District, FK 10012</span>
+                <span>Shop no-03 patel chock delhi, FK 110008</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-primary shrink-0" />
-                <span>+1 234 567 890</span>
+                <span>91+ 886****7442</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-primary shrink-0" />
